@@ -15,7 +15,7 @@ const Hero = () => {
     await console.log(container);
   }, []);
   return (
-    <div className="bg-black">
+    <>
       <div className="-z-10">
         <Particles
           id="tsparticles"
@@ -107,7 +107,7 @@ const Hero = () => {
           Apply With DevFolio
         </button>
       </div>
-    </div>
+    </>
   );
 };
 
