@@ -1,15 +1,19 @@
 import './App.css';
+import Home from './pages/Home';
 import Header from "./components/Header"
-import Hero from './pages/Hero';
-import { SiteBlob } from "./components/Siteblob"
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className='bg-black'>
-      <Header />
-      <SiteBlob />
-      <Hero />
-    </div>
+    <>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </BrowserRouter>
+
+    </>
   );
 }
 
