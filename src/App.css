@@ -15,33 +15,60 @@
     scroll-behavior: smooth;
 }
 
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p,
+a {
+    font-weight: 300;
+    letter-spacing: .5px;
+    color: #d7dbde;
+}
+
 /* Default background set */
 body {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(180deg, #243949 0%, #517fa4 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
-    background-color: #000;
 }
 
 header {
-    padding: 5px 25px;
-    position: sticky;
-    top: 0;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px 10px;
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0px;
+    z-index: 99;
 }
 
 .navbar {
     max-width: 1350px;
+    padding: 5px 25px;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 20;
+    background-color: #1c3143dd;
+    border: 1px solid #184671;
+    border-radius: 20px;
 }
 
 .logo a img {
-    width: 60px;
+    width: 50px;
     padding-top: 5px;
     padding-bottom: 2px;
 }
@@ -55,16 +82,17 @@ nav ul li {
 }
 
 nav ul li a {
-    font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     transition: all .3s;
-    color: #fff;
     position: relative;
+    text-transform: uppercase;
+    font-family: 'Tektur', cursive;
+    font-weight: 400;
 }
 
 nav ul li a:hover {
-    color: #002b6b;
+    color: #6ebeff;
 }
 
 nav ul li a::after {
@@ -75,7 +103,7 @@ nav ul li a::after {
     height: 2px;
     bottom: -4px;
     left: 0;
-    background-color: #002b6b;
+    background-color: #639bef;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -94,7 +122,90 @@ nav ul li a:hover::after {
     font-size: 25px;
 }
 
+.container {
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+/* Theme Card CSS*/
+.themes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.common-title {
+    width: fit-content;
+    margin: auto;
+    font-family: 'Tektur', cursive;
+    text-align: center;
+    color: #629eff;
+    padding-bottom: 35px;
+    background: -webkit-linear-gradient(-180deg, #209cff 0%, #68e0cf 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+.common-title::after {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(-90deg, #209cff 0%, #68e0cf 100%);
+}
+
+.theme-card {
+    width: 320px;
+    height: 380px;
+    margin: 20px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #293c4bce;
+    box-shadow: 0px 5px 20px #122b3fe4;
+    border: 1px solid #293c4b;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.theme-card:hover {
+    border: 1px solid #2f74b4;
+    transform: translateY(-2px);
+    opacity: .8;
+}
+
+.theme-img img {
+    width: 320px;
+    height: 180px;
+    margin: auto;
+    padding-right: 1px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.theme-content {
+    padding: 10px 15px;
+}
+
+.theme-content p {
+    padding-top: 8px;
+}
+
 @media screen and (max-width: 950px) {
+    header {
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .navbar {
+        border-radius: 0px;
+        border: none;
+    }
+
     nav {
         display: none;
         position: absolute;
@@ -102,13 +213,12 @@ nav ul li a:hover::after {
         right: 0;
         height: 100vh;
         width: 65%;
-        background-color: #061d32;
+        background-color: #14293afa;
         transition: all .2s;
-        z-index: 20;
     }
 
     nav.active {
-       display: block;
+        display: block;
     }
 
     nav ul {
@@ -143,5 +253,9 @@ nav ul li a:hover::after {
 
     .active.open-menu {
         display: none;
+    }
+
+    .theme-section{
+        padding-top: 10%;
     }
 }
