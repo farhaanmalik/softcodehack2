@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Tektur:wght@700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 /*font-family: 'Tektur', cursive; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
     margin: 0;
@@ -13,17 +17,16 @@
 
 /* Default background set */
 body {
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(180deg, #000, #184671);
+    font-family: 'Space Grotesk', sans-serif;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    background-color: #000;
 }
 
 header {
     padding: 5px 25px;
-    background-color: #00000099;
     position: sticky;
     top: 0;
 }
@@ -34,6 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 20;
 }
 
 .logo a img {
@@ -51,7 +55,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     letter-spacing: 1px;
     transition: all .3s;
@@ -60,7 +64,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #3b89ff;
+    color: #002b6b;
 }
 
 nav ul li a::after {
@@ -71,7 +75,7 @@ nav ul li a::after {
     height: 2px;
     bottom: -4px;
     left: 0;
-    background-color: #639bef;
+    background-color: #002b6b;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -100,6 +104,7 @@ nav ul li a:hover::after {
         width: 65%;
         background-color: #061d32;
         transition: all .2s;
+        z-index: 20;
     }
 
     nav.active {
