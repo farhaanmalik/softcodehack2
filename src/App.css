@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Tektur:wght@700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-/*font-family: 'Tektur', cursive; */
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Tektur:wght@400;700;800&display=swap');
 
 * {
     margin: 0;
@@ -33,10 +27,9 @@ a {
     color: #d7dbde;
 }
 
-/* Default background set */
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(180deg, #243949 0%, #517fa4 100%);
+    background-image: linear-gradient(180deg, #0d141b, #2c465b);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +85,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #6ebeff;
+    color: #018cff;
 }
 
 nav ul li a::after {
@@ -103,7 +96,7 @@ nav ul li a::after {
     height: 2px;
     bottom: -4px;
     left: 0;
-    background-color: #639bef;
+    background-color: #018cff;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -125,17 +118,93 @@ nav ul li a:hover::after {
 .container {
     max-width: 1300px;
     margin: auto;
-    margin-top: 10%;
+    padding: 20px;
 }
 
-/* Theme Card CSS*/
-.themes {
+/* hero section css */
+.hero-section {
+    height: 100vh;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.hero-title {
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(-180deg, #209cff 0%, #68e0cf 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Tektur', cursive;
+    letter-spacing: 4px;
+    animation: text 1s ease-in-out infinite;
+}
+
+@keyframes text {
+    0% {
+        background: -webkit-linear-gradient(-180deg, #209cff 0%, #68e0cf 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    50% {
+        background: -webkit-linear-gradient(-180deg, #68e0cf 0%, #209cff 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.hero-sub {
+    font-size: 22px;
+    padding: 10px 0px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.hero-btn {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    padding-top: 20px;
 }
 
+.hero-btn .btn-link {
+    width: 220px;
+    background-color: #018cff;
+    color: #fff;
+    margin: 10px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all .3s;
+}
+
+.hero-btn .btn-link:hover {
+    transform: translateY(2px);
+}
+
+.hero-btn .btn-link:nth-child(3),
+.hero-btn .btn-link:nth-child(4) {
+    background: #ffffff;
+    color: #0d141b;
+}
+
+
 .common-title {
+    font-size: 30px;
+    text-transform: uppercase;
     width: fit-content;
     margin: auto;
     font-family: 'Tektur', cursive;
@@ -154,10 +223,56 @@ nav ul li a:hover::after {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    width: 150px;
+    width: 140px;
     height: 5px;
     border-radius: 5px;
     background: linear-gradient(-90deg, #209cff 0%, #68e0cf 100%);
+}
+
+/* ===About Section=== */
+#about {
+    padding-top: 5%;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.content {
+    margin-top: 40px;
+    max-width: 1100px;
+    background-color: #2f4f67;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px #122b3fe4;
+}
+
+.content p {
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+
+/* Theme Card CSS*/
+#themes {
+    padding-top: 5%;
+}
+
+.theme-section {
+    margin-top: 5%;
+}
+
+.themes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .theme-card {
@@ -166,7 +281,7 @@ nav ul li a:hover::after {
     margin: 20px;
     color: #fff;
     border-radius: 10px;
-    background-color: #293c4bce;
+    background-color: #2f4f67;
     box-shadow: 0px 5px 20px #122b3fe4;
     border: 1px solid #293c4b;
     cursor: pointer;
@@ -255,7 +370,29 @@ nav ul li a:hover::after {
         display: none;
     }
 
-    .theme-section{
+    .about-section {
+        margin: 4rem 0;
+        height: 130vh;
+    }
+
+    .abbox {
+        border-radius: 21px;
+    }
+
+    .abbox h2 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        width: 100%;
+        margin: 0;
+    }
+
+    .abbox p {
+        font-size: 1.1rem;
+        padding: 0;
+        padding-top: 1rem;
+    }
+
+    .theme-section {
         padding-top: 10%;
     }
 }

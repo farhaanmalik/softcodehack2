@@ -1,14 +1,20 @@
 import './App.css';
-// import Home from './pages/Home';
+import Home from './pages/Home';
 import Header from "./components/Header"
-import Hero from './pages/Hero';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </BrowserRouter>
+
     </>
   );
 }
+
 export default App;
