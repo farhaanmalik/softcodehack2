@@ -55,7 +55,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1c3143dd;
+    background-color: #09131ded;
     border: 1px solid #184671;
     border-radius: 20px;
 }
@@ -71,7 +71,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 35px;
+    margin-left: 25px;
 }
 
 nav ul li a {
@@ -228,13 +228,14 @@ nav ul li a:hover::after {
     background: linear-gradient(-90deg, #209cff 0%, #68e0cf 100%);
 }
 
-/* ===About Section=== */
-#about {
-    padding-top: 5%;
+.section{
+    padding: 5% 0;
 }
 
+/* ===About Section=== */
+
 .about-section {
-    margin-top: 4rem;
+    margin: 3rem 0;
     padding: 0 20px;
 }
 
@@ -242,7 +243,7 @@ nav ul li a:hover::after {
     max-width: 1100px;
     margin: auto;
     margin-top: 40px;
-    background-color: #2f4f67;
+    background-color: #091926;
     padding: 50px 30px;
     border-radius: 10px;
     box-shadow: 0px 10px 20px #122b3fe4;
@@ -253,23 +254,22 @@ nav ul li a:hover::after {
     text-align: center;
     letter-spacing: 1px;
     font-size: 18px;
+    font-weight: 400;
 }
 
 
 
 /* Theme Card CSS*/
-#themes {
-    padding-top: 5%;
-}
 
 .theme-section {
-    margin-top: 5%;
+    margin: 3rem 0;
 }
 
 .themes {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .theme-card {
@@ -306,6 +306,53 @@ nav ul li a:hover::after {
 .theme-content p {
     padding-top: 8px;
 }
+
+/*===Mentors CSS===*/
+.team-section{
+    margin: 4rem 0;
+}
+.team{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team-box{
+    text-align: center;
+    margin: 20px 30px;
+    position: relative;
+}
+.team-img{
+    width: 220px;
+    height: 220px;
+    background-color: #2f4f67;
+    border-radius: 25%;
+}
+.team-img img{
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    border-radius: 25%;
+    z-index: 1;
+    border: 2px solid #ffffff;
+}
+.team-content{
+    width: 220px;
+    background-color: #2f74b4;
+    padding: 15px;
+    padding-top: 75px;
+    position: absolute;
+    border-radius: 0px 0px 10px 10px;
+    bottom: -60px;
+    z-index: -1;
+    box-shadow: 0px 5px 20px #122b3fe4;
+}
+.team-content h3{
+    color: #ffffff;
+    padding-bottom: 5px;
+    letter-spacing: 1.5px;
+}
+
 
 @media screen and (max-width: 950px) {
     header {

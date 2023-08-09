@@ -3,9 +3,8 @@ import React from 'react'
 const About = () => {
     return (
         <>
-            <section className="section about-section">
-                <div className="abbox wow animate__animated animate__fadeInUp"
-                    data-wow-duration="1s">
+            <section className='section' id='about'>
+                <div className="about-section">
                     <h2 className="common-title">About Us</h2>
                     <div className="content">
                         <p>

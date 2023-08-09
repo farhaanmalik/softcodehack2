@@ -54,20 +54,22 @@ const Themes = () => {
   ]
   return (
     <>
-      <div className="theme-section">
-        <h1 className='common-title'>Themes To Hack</h1>
-        <div className="themes">
-          {cards.map((item) => {
-            return <div>
-              <ThemeCard
-                image={item.image}
-                title={item.title}
-                description={item.description}
-              />
-            </div>
-          })}
+      <section className="section" id='themes'>
+        <div className="theme-section">
+          <h1 className='common-title'>Themes To Hack</h1>
+          <div className="themes">
+            {cards.map((item) => {
+              return <div key={item.id}>
+                <ThemeCard
+                  image={item.image}
+                  title={item.title}
+                  description={item.description}
+                />
+              </div>
+            })}
+          </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }

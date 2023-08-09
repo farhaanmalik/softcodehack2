@@ -22,13 +22,16 @@ const Navbar = () => {
                         <a href="#prizes" onClick={() => setOpenMenu(false)} >Prizes</a>
                     </li>
                     <li>
-                        <a href="#team" onClick={() => setOpenMenu(false)} >Team</a>
+                        <a href="#mentors" onClick={() => setOpenMenu(false)} >Mentors</a>
                     </li>
                     <li>
                         <a href="#timelines" onClick={() => setOpenMenu(false)}>Timelines</a>
                     </li>
                     <li>
                         <a href="#sponsors" onClick={() => setOpenMenu(false)} >Sponsors</a>
+                    </li>
+                    <li>
+                        <a href="#partners" onClick={() => setOpenMenu(false)} >Partners</a>
                     </li>
                     <li>
                         <a href="#faq" onClick={() => setOpenMenu(false)} >FAQ</a>
