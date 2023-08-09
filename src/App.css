@@ -124,13 +124,12 @@ nav ul li a:hover::after {
 /* hero section css */
 .hero-section {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     width: 100%;
 }
@@ -235,11 +234,8 @@ nav ul li a:hover::after {
 }
 
 .about-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
     margin-top: 4rem;
+    padding: 0 20px;
 }
 
 .content {
@@ -370,29 +366,40 @@ nav ul li a:hover::after {
         display: none;
     }
 
-    .about-section {
-        margin: 4rem 0;
-        height: 130vh;
-    }
-
-    .abbox {
-        border-radius: 21px;
-    }
-
-    .abbox h2 {
-        font-size: 1.8rem;
-        line-height: 2.5rem;
-        width: 100%;
-        margin: 0;
-    }
-
-    .abbox p {
-        font-size: 1.1rem;
-        padding: 0;
-        padding-top: 1rem;
-    }
-
     .theme-section {
         padding-top: 10%;
     }
+}
+
+
+@media screen and (max-width: 650px) {
+    .hero-section{
+        height: 90vh;
+        padding-top: 40px;
+    }
+    .hero-title {
+        font-size: 30px;
+        padding-top: 40px;
+        font-weight: 700;
+    }
+    .hero-sub {
+        font-size: 18px;
+    }
+
+    .about-section {
+        padding: 0px;
+        height: 100%;
+    }
+
+    .theme-card {
+        width: 300px;
+        height: fit-content;
+        margin: 15px 0px;
+    }
+
+    
+    .theme-img img {
+        width: 300px;
+    }
+    
 }
