@@ -16,7 +16,7 @@ const Hero = () => {
     return (
         <>
             <section id="home">
-                <div className="-z-10">
+                <div style={{opacity: 0.5}}>
                     <Particles
                         id="tsparticles"
                         init={particlesInit}
