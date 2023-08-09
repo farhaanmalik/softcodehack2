@@ -27,9 +27,28 @@ a {
     color: #d7dbde;
 }
 
+/* === Scroll Bar CSS === */
+::-webkit-scrollbar {
+    width: 6px;
+    background: linear-gradient(180deg, #0d141b, #2c465b);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #184671;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #018cff;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #629eff;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(180deg, #0d141b, #2c465b);
+    background: linear-gradient(180deg, #0d141b, #2c465b);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,6 +56,8 @@ body {
     height: 100vh;
 }
 
+
+/* === Header CSS === */
 header {
     width: 100%;
     margin-top: 20px;
@@ -121,7 +142,7 @@ nav ul li a:hover::after {
     padding: 20px;
 }
 
-/* hero section css */
+/* ====hero section css==== */
 .hero-section {
     height: 100vh;
     display: flex;
@@ -201,6 +222,7 @@ nav ul li a:hover::after {
 }
 
 
+/* === Titles === */
 .common-title {
     font-size: 30px;
     text-transform: uppercase;
@@ -228,9 +250,12 @@ nav ul li a:hover::after {
     background: linear-gradient(-90deg, #209cff 0%, #68e0cf 100%);
 }
 
+
+/* === All Section === */
 .section {
     padding: 5% 0;
 }
+
 
 /* ===About Section=== */
 
@@ -258,8 +283,7 @@ nav ul li a:hover::after {
 }
 
 
-
-/* Theme Card CSS*/
+/*==== Theme Card CSS ====*/
 
 .theme-section {
     margin: 3rem 0;
@@ -307,7 +331,8 @@ nav ul li a:hover::after {
     padding-top: 8px;
 }
 
-/*===Mentors CSS===*/
+/*==== Mentors CSS ====*/
+
 .team-section {
     margin: 4rem 0;
 }
@@ -360,8 +385,8 @@ nav ul li a:hover::after {
 }
 
 
-/* FAQ SECTION */
-.faq-section{
+/*==== FAQ SECTION ====*/
+.faq-section {
     margin-top: 4rem;
 }
 
@@ -370,14 +395,20 @@ nav ul li a:hover::after {
     margin: auto;
     margin-top: 40px;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
+    background-color: #091926;
+    box-shadow: 0px 10px 20px #122b3fe4;
 }
+
 .faq-body {
     padding: 30px;
     padding-top: 10px;
     border-radius: 10px;
 }
 
+
+
+/* === Media Queries CSS === */
 
 @media screen and (max-width: 950px) {
     header {
@@ -442,6 +473,14 @@ nav ul li a:hover::after {
     .theme-section {
         padding-top: 10%;
     }
+
+    .team-box {
+        margin: 50px 0px;
+    }
+
+    .team {
+        margin-top: 0px;
+    }
 }
 
 
@@ -472,13 +511,13 @@ nav ul li a:hover::after {
         margin: 15px 0px;
     }
 
-
     .theme-img img {
         width: 300px;
     }
 
-    .faq-container {
-        padding: 0px;
+    .faq-body {
+        padding: 10px;
+        padding-top: 0;
     }
 
 }
