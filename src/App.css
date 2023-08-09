@@ -228,7 +228,7 @@ nav ul li a:hover::after {
     background: linear-gradient(-90deg, #209cff 0%, #68e0cf 100%);
 }
 
-.section{
+.section {
     padding: 5% 0;
 }
 
@@ -308,27 +308,31 @@ nav ul li a:hover::after {
 }
 
 /*===Mentors CSS===*/
-.team-section{
+.team-section {
     margin: 4rem 0;
 }
-.team{
+
+.team {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.team-box{
+
+.team-box {
     text-align: center;
     margin: 20px 30px;
     position: relative;
 }
-.team-img{
+
+.team-img {
     width: 220px;
     height: 220px;
     background-color: #2f4f67;
     border-radius: 25%;
 }
-.team-img img{
+
+.team-img img {
     width: 220px;
     height: 220px;
     padding: 10px;
@@ -336,7 +340,8 @@ nav ul li a:hover::after {
     z-index: 1;
     border: 2px solid #ffffff;
 }
-.team-content{
+
+.team-content {
     width: 220px;
     background-color: #2f74b4;
     padding: 15px;
@@ -347,10 +352,30 @@ nav ul li a:hover::after {
     z-index: -1;
     box-shadow: 0px 5px 20px #122b3fe4;
 }
-.team-content h3{
+
+.team-content h3 {
     color: #ffffff;
     padding-bottom: 5px;
     letter-spacing: 1.5px;
+}
+
+
+/* FAQ SECTION */
+.faq-section{
+    margin-top: 4rem;
+}
+
+.faq-container {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.faq-body {
+    padding: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
 }
 
 
@@ -421,15 +446,17 @@ nav ul li a:hover::after {
 
 
 @media screen and (max-width: 650px) {
-    .hero-section{
+    .hero-section {
         height: 90vh;
         padding-top: 40px;
     }
+
     .hero-title {
         font-size: 30px;
         padding-top: 40px;
         font-weight: 700;
     }
+
     .hero-sub {
         font-size: 18px;
     }
@@ -445,9 +472,13 @@ nav ul li a:hover::after {
         margin: 15px 0px;
     }
 
-    
+
     .theme-img img {
         width: 300px;
     }
-    
+
+    .faq-container {
+        padding: 0px;
+    }
+
 }
