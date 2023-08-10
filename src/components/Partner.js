@@ -6,6 +6,28 @@ const Partner = () => {
       <section className="section" id='partners'>
         <div className="partner-section">
         <h1 className='common-title'>Community Partners</h1>
+        <div className="ptnr-boxes">
+            <div className="ptnr-box">
+              <img src="../partner.png" alt="" />
+              <p>Tech Surfers</p>
+            </div>
+            <div className="ptnr-box">
+              <img src="../partner.png" alt="" />
+              <p>Tech Surfers</p>
+            </div>
+            <div className="ptnr-box">
+              <img src="../partner.png" alt="" />
+              <p>Tech Surfers</p>
+            </div>
+            <div className="ptnr-box">
+              <img src="../partner.png" alt="" />
+              <p>Tech Surfers</p>
+            </div>
+            <div className="ptnr-box">
+              <img src="../partner.png" alt="" />
+              <p>Tech Surfers</p>
+            </div>
+          </div>
         </div>
       </section>
     </>
