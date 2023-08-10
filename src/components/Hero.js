@@ -110,9 +110,6 @@ const Hero = () => {
               <a href="/" className="btn-link" rel="noreferrer">
                 Apply With DevFolio
               </a>
-              // <a href="/" className="btn-link" rel="noreferrer">
-              //   Join Us as Partner
-              // </a>
               <a href="/" className="btn-link">
                 Sponsor Us
               </a>
