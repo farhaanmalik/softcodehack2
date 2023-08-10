@@ -1,12 +1,12 @@
 import React from "react";
-import { FaWhatsapp, FaInstagram, FaLinkedinIn, FaTelegram, } from "react-icons/fa6";
+import { FaWhatsapp, FaInstagram, FaLinkedinIn, FaTelegram, FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
         <div className="logo ft-box">
-          <img src="/logo.png" alt="Logo" />
+          <img src="../footer-logo.png" alt="Logo" />
         </div>
         <div className="social ft-box">
           <h2 className="footer-title">Connect With Us</h2>
@@ -24,6 +24,9 @@ const Footer = () => {
             <a href="https://www.linkedin.com/company/phicsit/" target="_blank" rel="noreferrer">
               <FaLinkedinIn className="social-icon" />
             </a>
+            <a href="https://twitter.com/PHICSIT" target="_blank" rel="noreferrer">
+              <FaTwitter className="social-icon" />
+            </a>
           </div>
         </div>
         <div className="contact-us ft-box">
@@ -39,3 +42,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
