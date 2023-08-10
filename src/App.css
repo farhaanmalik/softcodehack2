@@ -19,15 +19,17 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
 }
-.particles-container {
-    position: relative;
-    z-index: -1;
-}
+
 p,
 a {
     font-weight: 300;
     letter-spacing: .5px;
     color: #d7dbde;
+}
+
+.particles-container {
+    position: relative;
+    z-index: -1;
 }
 
 ::-webkit-scrollbar {
@@ -63,6 +65,19 @@ body {
     height: 100vh;
 }
 
+/* Loader CSS */
+.loader-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #091926;
+    position: relative;
+}
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* === Header CSS === */
 header {
@@ -432,6 +447,7 @@ nav ul li a:hover::after {
     overflow: hidden;
     position: relative;
 }
+
 .spnsr-img::after {
     content: "";
     position: absolute;
@@ -446,19 +462,21 @@ nav ul li a:hover::after {
     transition: all .5s;
 }
 
-.spnsr-img:hover::after{
+.spnsr-img:hover::after {
     transform: translateX(100%);
 }
+
 .spnsr-img img {
     width: 150px;
 }
 
 
 /*==== Partners Section ====*/
-.partner-section{
+.partner-section {
     margin-top: 4rem;
 }
-.ptnr-boxes{
+
+.ptnr-boxes {
     max-width: 900px;
     margin: 20px auto;
     display: flex;
@@ -466,7 +484,8 @@ nav ul li a:hover::after {
     justify-content: center;
     flex-wrap: wrap;
 }
-.ptnr-box{
+
+.ptnr-box {
     width: 250px;
     height: 250px;
     background-color: #184671;
@@ -476,13 +495,15 @@ nav ul li a:hover::after {
     overflow: hidden;
     box-shadow: 0px 10px 10px #122b3fe4;
 }
-.ptnr-box img{
+
+.ptnr-box img {
     width: 250px;
     height: 250px;
     padding: 5px;
     border-radius: 10px;
 }
-.ptnr-box p{
+
+.ptnr-box p {
     position: absolute;
     bottom: -50%;
     left: 50%;
@@ -492,12 +513,13 @@ nav ul li a:hover::after {
     padding: 20px 5px;
     text-align: center;
     z-index: 1;
-    border-radius:0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
     font-weight: 400;
     letter-spacing: 1.2px;
     transition: all .2s;
 }
-.ptnr-box:hover p{
+
+.ptnr-box:hover p {
     bottom: 0%;
 }
 
@@ -523,6 +545,7 @@ nav ul li a:hover::after {
     border-radius: 10px;
 }
 
+
 /*=== Footer.css ===*/
 footer {
     width: 100%;
@@ -546,13 +569,14 @@ footer {
     width: 100%;
     margin: auto;
 }
-.ft-box{
+
+.ft-box {
     width: fit-content;
     margin: 10px 20px;
 }
 
 .logo img {
-    width: 85px;
+    width: 100px;
 }
 
 .footer-title {
@@ -560,14 +584,15 @@ footer {
     font-weight: 600;
     margin-bottom: 15px;
 }
-.social-links{
+
+.social-links {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
+
 .social-icon {
-    font-size: 28px;
-    margin: 0px 10px;
+    font-size: 26px;
+    margin-right: 20px;
     transition: all .3s;
 }
 
@@ -658,9 +683,8 @@ footer {
     .theme-section {
         padding-top: 10%;
     }
-
     .team-box {
-        margin: 50px 0px;
+        margin: 50px 20px;
     }
 
     .team {
@@ -706,22 +730,25 @@ footer {
     }
 
     footer {
-       padding: 20px;
+        padding: 20px;
     }
 
     .footer-content {
         justify-content: center;
         text-align: center;
-        padding: 30px 10px;
+        padding: 20px 10px;
     }
 
-    .ft-box{
-        margin-top: 20px;
+    .ft-box {
+        margin-bottom: 30px;
     }
 
-    .copyright{
+    .footer-title {
+        font-size: 22px;
+    }
+
+    .copyright {
         padding: 10px;
         padding-top: 30px;
     }
-
 }
