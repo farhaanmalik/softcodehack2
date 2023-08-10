@@ -523,6 +523,74 @@ nav ul li a:hover::after {
     border-radius: 10px;
 }
 
+/*=== Footer.css ===*/
+footer {
+    width: 100%;
+    background-color: #091926;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 4rem;
+    padding: 30px;
+    padding-top: 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+}
+.ft-box{
+    width: fit-content;
+    margin: 10px 20px;
+}
+
+.logo img {
+    width: 85px;
+}
+
+.footer-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon {
+    font-size: 28px;
+    margin: 0px 10px;
+    transition: all .3s;
+}
+
+.social-icon:hover {
+    color: #2f74b4;
+    transform: translateY(-2px);
+}
+
+.contact-us-email {
+    font-size: 18px;
+}
+
+.copyright {
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+    border-top: 1px solid #2f4f67;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
 
 
 /* === Media Queries CSS === */
@@ -635,6 +703,25 @@ nav ul li a:hover::after {
     .faq-body {
         padding: 10px;
         padding-top: 0;
+    }
+
+    footer {
+       padding: 20px;
+    }
+
+    .footer-content {
+        justify-content: center;
+        text-align: center;
+        padding: 30px 10px;
+    }
+
+    .ft-box{
+        margin-top: 20px;
+    }
+
+    .copyright{
+        padding: 10px;
+        padding-top: 30px;
     }
 
 }
