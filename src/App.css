@@ -19,7 +19,10 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
 }
-
+.particles-container {
+    position: relative;
+    z-index: -1;
+}
 p,
 a {
     font-weight: 300;
