@@ -107,17 +107,17 @@ const Hero = () => {
               Collaborate, Innovative, and Conquer at the Hackathon!
             </p>
             <div className="hero-btn">
-              <a href="/" className="btn-link">
+              <a href="/" className="btn-link" rel="noreferrer">
                 Apply With DevFolio
               </a>
-              <a href="/" className="btn-link">
-                Join Us as Partner
-              </a>
+              // <a href="/" className="btn-link" rel="noreferrer">
+              //   Join Us as Partner
+              // </a>
               <a href="/" className="btn-link">
                 Sponsor Us
               </a>
-              <a href="/" className="btn-link">
-                Join With Discord
+             <a href="https://discord.gg/sxVdEZdsNq" target="_blank" rel="noreferrer" className="btn-link">
+                  Join Our Discord
               </a>
             </div>
           </div>
