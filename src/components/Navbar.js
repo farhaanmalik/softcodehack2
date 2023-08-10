@@ -10,28 +10,31 @@ const Navbar = () => {
             <nav className={openMenu ? "active" : ""}>
                 <ul>
                     <li>
-                        <a href="#home" onClick={() => setOpenMenu(false)} >HOME</a>
+                        <a href="#home" onClick={() => setOpenMenu(false)} >Home</a>
                     </li>
                     <li>
-                        <a href="#about" onClick={() => setOpenMenu(false)} >ABOUT US</a>
+                        <a href="#about" onClick={() => setOpenMenu(false)} >About Us</a>
                     </li>
                     <li>
-                        <a href="#schedule" onClick={() => setOpenMenu(false)} >SCHEDULE</a>
+                        <a href="#themes" onClick={() => setOpenMenu(false)} >Themes</a>
                     </li>
                     <li>
-                        <a href="#tracks" onClick={() => setOpenMenu(false)} >TRACKS</a>
+                        <a href="#prizes" onClick={() => setOpenMenu(false)} >Prizes</a>
                     </li>
                     <li>
-                        <a href="#sponsors" onClick={() => setOpenMenu(false)}>SPONSERS</a>
+                        <a href="#mentors" onClick={() => setOpenMenu(false)} >Mentors</a>
                     </li>
                     <li>
-                        <a href="#team" onClick={() => setOpenMenu(false)} >TEAM</a>
+                        <a href="#timelines" onClick={() => setOpenMenu(false)}>Timelines</a>
+                    </li>
+                    <li>
+                        <a href="#sponsors" onClick={() => setOpenMenu(false)} >Sponsors</a>
+                    </li>
+                    <li>
+                        <a href="#partners" onClick={() => setOpenMenu(false)} >Partners</a>
                     </li>
                     <li>
                         <a href="#faq" onClick={() => setOpenMenu(false)} >FAQ</a>
-                    </li>
-                    <li>
-                        <a href="#contact" onClick={() => setOpenMenu(false)} >CONTACT</a>
                     </li>
                 </ul>
             </nav>
