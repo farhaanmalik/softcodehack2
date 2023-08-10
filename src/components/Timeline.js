@@ -1,116 +1,77 @@
-import React from "react";
-import "../Timeline.css";
+import React from 'react';
 
+const TimelineEvent = ({ dates, title, description }) => (
+    <div className="timeline">
+        <div className="timeline-content">
+            <div className="timeline-dates">{dates}</div>
+            <h3 className="title">{title}</h3>
+            <p className="description">{description}</p>
+        </div>
+    </div>
+);
 
-const Timeline = () => {
-
-    return (
-        <div className="container">
-            <Heading text="Timeline" position="center" />
-            <div className="row pt-5">
-                <div className="col-md-12">
-                    <div className="main-timeline">
-                        <div className="timeline">
-                            <div className="timeline-content">
-                                <div className="timeline-year"></div>
-                                <h3 className="title">Registration starts</h3>
-                                <p className="description">
-                                    You can register by clicking on Apply with Devfolio button above.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <div class="timeline-year"></div>
-                                <h3 class="title">Orientation session at 10:00 AM</h3>
-                                <p class="description">
-                                    Join our discord server for getting session link.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <div class="timeline-year" style={{ right: "-25px" }}>
-                                </div>
-                                <h3 class="title">Mentor session at 04:00 PM</h3>
-                                <p class="description">
-                                    Get Insight on How to win the Hackathon?
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <div class="timeline-year"></div>
-                                <h3 class="title">Registration end</h3>
-                                <p class="description">
-                                    Last date of event registration
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <div class="timeline-year"></div>
-                                <h3 class="title">Hackathon starts</h3>
-                                <p class="description">
-                                    You can start building your project
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <div class="timeline-year"></div>
-                                <h3 class="title">Mini-event: 1</h3>
-                                <p class="description">
-                                    Get familiar with Machine Learning
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <div class="timeline-year" style={{ right: "-42px" }}>
-                                </div>
-                                <h3 class="title">Mini-event: 2</h3>
-                                <p class="description">
-                                    Get familiar with App Development
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <div class="timeline-year" style={{ left: "-42px" }}>
-                                </div>
-                                <h3 class="title">Mini-event: 3</h3>
-                                <p class="description">
-                                    Get familiar with Cyber Security
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <div class="timeline-year" style={{ right: "-42px" }}>
-                                </div>
-                                <h3 class="title">Hackathon ends</h3>
-                                <p class="description">
-                                    Last day of Hackathon
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-content">
-                                <div class="timeline-year" style={{ left: "-42px" }}>
-                                </div>
-                                <h3 class="title">Result announcement</h3>
-                                <p class="description">
-                                    You can check for winners
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+const HackathonTimeline = () => (
+    <section className="section" id='timelines'>
+     <div className="container">
+        <h1 className="common-title">Timeline</h1>
+        <div className="row pt-5">
+            <div className="col-md-12">
+                <div className="main-timeline">
+                    <TimelineEvent
+                        dates=""
+                        title="Registration starts"
+                        description="You can register by clicking on Apply with Devfolio button above."
+                    />
+                    <TimelineEvent
+                        dates=""
+                        title="Orientation session at 10:00 AM"
+                        description="Join our discord server for getting session link."
+                    />
+                    <TimelineEvent
+                        dates=""
+                        title="Mentor session at 04:00 PM"
+                        description="Get Insight on How to win the Hackathon?"
+                    />
+                    <TimelineEvent
+                        dates=""
+                        title="Registration end"
+                        description="Last date of event registration"
+                    />
+                    <TimelineEvent
+                        dates=""
+                        title="Hackathon starts"
+                        description="You can start building your project"
+                    />
+                    <TimelineEvent
+                        dates=""
+                        title="Mini-event: 1"
+                        description="Get familiar with Machine Learning"
+                    />
+                    <TimelineEvent
+                        dates=""
+                        title="Mini-event: 2"
+                        description="Get familiar with App Development"
+                    />
+                    <TimelineEvent
+                        dates=""
+                        title="Mini-event: 3"
+                        description="Get familiar with Cyber Security"
+                    />
+                    <TimelineEvent
+                        dates=""
+                        title="Hackathon ends"
+                        description="Last day of Hackathon"
+                    />
+                    <TimelineEvent
+                        dates=""
+                        title="Result announcement"
+                        description="You can check winners"
+                    />
                 </div>
             </div>
         </div>
-    );
-};
+    </div>
+</section>
+);
 
-export default Timeline;
+export default HackathonTimeline;
