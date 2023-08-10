@@ -32,7 +32,7 @@ const spnsrs = () => {
                 </div>
               </div>
             </div>
-            <div className="box">
+            {/* <div className="box">
               <h2 className='spnsr-title'>Silver Sponsors</h2>
               <div className='spnsr-grid'>
                 <div className="spnsr-img">
@@ -40,7 +40,7 @@ const spnsrs = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="box">
+             <div className="box">
               <h2 className='spnsr-title'>In-Kind Sponsors</h2>
               <div className="spnsr-img"></div>
             </div> */}
