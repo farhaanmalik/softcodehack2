@@ -1,4 +1,5 @@
 import './App.css';
+import './Timeline.css';
 import { useState, useEffect } from 'react';
 import Home from './pages/Home';
 import Header from "./components/Header"
