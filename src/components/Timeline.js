@@ -11,8 +11,9 @@ const TimelineEvent = ({ dates, title, description }) => (
 );
 
 const HackathonTimeline = () => (
-    <div className="container">
-        <h1>Timeline</h1>
+    <section className="section" id='timelines'>
+     <div className="container">
+        <h1 className="common-title">Timeline</h1>
         <div className="row pt-5">
             <div className="col-md-12">
                 <div className="main-timeline">
@@ -70,6 +71,7 @@ const HackathonTimeline = () => (
             </div>
         </div>
     </div>
+</section>
 );
 
 export default HackathonTimeline;
