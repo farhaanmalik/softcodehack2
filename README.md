@@ -69,5 +69,5 @@ Contributions are welcome! If you find any bugs or want to improve the website, 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ```bash
-Made with ❤️
+Made with ❤️ by the Team Soft CodeHack
 ```
