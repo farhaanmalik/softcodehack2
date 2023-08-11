@@ -30,7 +30,7 @@ const data = {
     },
   ],
   styles: {
-    bgColor: "white",
+    bgColor: "0b1936d4",
     titleTextColor: "blue",
     rowTitleColor: "blue",
     rowContentTextSize: "20px",
@@ -40,7 +40,7 @@ const data = {
 };
 export default function FaqC() {
   const styles = {
-    bgColor: "#091926",
+    bgColor: "0b1936d4",
     titleTextColor: "white",
     rowTitleColor: "#E3E5E7",
     rowContentColor: '#B0B9BE',
