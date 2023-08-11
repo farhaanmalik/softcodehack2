@@ -7,6 +7,7 @@ import Timeline from '../components/Timeline'
 import Sponsors from '../components/Sponsors'
 import Partner from '../components/Partner'
 import FaqC from '../components/FaqC'
+import Prize from '../components/Prize'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
                 <Hero />
                 <About />
                 <Themes />
+                <Prize />
                 <Team />
                 <Timeline/>
                 <Sponsors />
