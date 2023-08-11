@@ -282,7 +282,7 @@ nav ul li a:hover::after {
 /* ===About Section=== */
 
 .about-section {
-    margin: 3rem 0;
+    margin: 4rem 0;
     padding: 0 20px;
 }
 
@@ -304,11 +304,45 @@ nav ul li a:hover::after {
     font-weight: 400;
 }
 
+/* ====Prizes CSS==== */
+.prize-section{
+    margin: 4rem 0;
+}
+.prize-boxes{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.prz-box{
+    width: 300px;
+    margin: 20px 30px;
+    padding: 20px;
+    border: 1px solid #68e0cf;
+    text-align: center;
+    background-color: #091926d0;
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 0px 5px 10px #122b3fe4;
+    transition: all .3s;
+}
+.prz-box:hover{
+    box-shadow: 0px 5px 20px #122b3fee;
+    background-color: #0d141b;
+    border-radius: 0px 0px 50px 50px;
+}
+.prz-box img{
+    padding: 15px;
+}
+.prz-box p{
+    font-size: 18px;
+    font-weight: 400;
+}
 
 /*==== Theme Card CSS ====*/
 
 .theme-section {
-    margin: 3rem 0;
+    margin: 4rem 0;
 }
 
 .themes {
