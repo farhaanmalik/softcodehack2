@@ -7,6 +7,9 @@ const Footer = () => {
       <div className="footer-content">
         <div className="logo ft-box">
           <img src="../footer-logo.png" alt="Logo" />
+          <p className="pow-by">
+            Powered by PHICSIT.
+          </p>
         </div>
         <div className="social ft-box">
           <h2 className="footer-title">Connect With Us</h2>
