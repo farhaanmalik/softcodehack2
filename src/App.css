@@ -419,14 +419,14 @@ nav ul li a:hover::after {
     background-color: #018cff;
     width: 220px;
     height: 220px;
-    border-radius: 30px;
+    border-radius: 120px;
     box-shadow: 0px 10px 20px #0b1936;
 }
 
 .team-img img {
     width: 220px;
     height: 220px;
-    border-radius: 30px;
+    border-radius: 120px;
     padding: 6px;
     border: 3px solid #018cff;
 }
