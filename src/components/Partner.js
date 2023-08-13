@@ -9,23 +9,35 @@ const Partner = () => {
         <div className="ptnr-boxes">
             <div className="ptnr-box">
               <img src="../partner.png" alt="" />
-              <p>Tech Surfers</p>
+              <p>Comming Soon</p>
             </div>
             <div className="ptnr-box">
               <img src="../partner.png" alt="" />
-              <p>Tech Surfers</p>
+              <p>Comming Soon</p>
             </div>
             <div className="ptnr-box">
               <img src="../partner.png" alt="" />
-              <p>Tech Surfers</p>
+              <p>Comming Soon</p>
             </div>
             <div className="ptnr-box">
               <img src="../partner.png" alt="" />
-              <p>Tech Surfers</p>
+              <p>Comming Soon</p>
             </div>
             <div className="ptnr-box">
               <img src="../partner.png" alt="" />
-              <p>Tech Surfers</p>
+              <p>Comming Soon</p>
+            </div>
+            <div className="ptnr-box">
+              <img src="../partner.png" alt="" />
+              <p>Comming Soon</p>
+            </div>
+            <div className="ptnr-box">
+              <img src="../partner.png" alt="" />
+              <p>Comming Soon</p>
+            </div>
+            <div className="ptnr-box">
+              <img src="../partner.png" alt="" />
+              <p>Comming Soon</p>
             </div>
           </div>
         </div>
