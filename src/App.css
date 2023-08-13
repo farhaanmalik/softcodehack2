@@ -407,18 +407,17 @@ nav ul li a:hover::after {
 }
 
 .team-img{
-    background-color: #018cff;
     width: 220px;
     height: 220px;
-    border-radius: 30px;
+    border-radius: 50%;
     box-shadow: 0px 10px 20px #0b1936;
 }
 .team-img img {
     width: 220px;
     height: 220px;
-    border-radius: 30px;
+    border-radius: 50%;
     padding: 6px;
-    border: 2px solid #d7dbde;
+    border: 3px solid #018cff;
 }
 
 .team-content {
@@ -427,7 +426,7 @@ nav ul li a:hover::after {
     flex-direction: column;
     text-align: center;
     border-radius: 10px;
-    padding: 10px 15px;
+    padding: 15px;
 }
 
 .team-content h3 {
@@ -723,7 +722,7 @@ footer {
         padding-top: 10%;
     }
     .team-box {
-        margin: 50px 20px;
+        margin: 25px 30px;
     }
 
     .team {
