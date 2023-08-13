@@ -403,43 +403,41 @@ nav ul li a:hover::after {
 }
 
 .team-box {
-    text-align: center;
     margin: 20px 30px;
     position: relative;
-}
-
-.team-img {
-    width: 220px;
-    height: 220px;
-    background-color: #1c5295;
-    border-radius: 25%;
+    border-radius: 25% 25% 10px 10px;
+    box-shadow: 0px 10px 20px #010a12;
+    background-color: #092155;
 }
 
 .team-img img {
-    width: 220px;
-    height: 220px;
-    padding: 10px;
-    border-radius: 25%;
-    z-index: 1;
-    border: 2px solid #ffffff;
+    width: 230px;
+    height: 250px;
+    border-radius: 25% 25% 10px 10px;
+    box-shadow: 0px 5px 10px #0b1936;
+    transition: all .2s;
+}
+.team-box:hover .team-img img{
+    transform: scale(.98);
 }
 
 .team-content {
-    width: 220px;
-    background-color: #1c5295;
-    padding: 15px;
-    padding-top: 75px;
-    position: absolute;
-    border-radius: 0px 0px 10px 10px;
-    bottom: -60px;
-    z-index: -1;
-    box-shadow: 0px 10px 20px #010a12;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 15px;
 }
 
 .team-content h3 {
     color: #ffffff;
-    padding-bottom: 5px;
     letter-spacing: 1.5px;
+    font-weight: 400;
+    padding: 6px 0;
+}
+.team-content p {
+    font-size: 15px;
+    padding-bottom: 2px;
 }
 
 /*==== Sponsors-section ====*/
