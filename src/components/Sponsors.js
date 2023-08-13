@@ -8,7 +8,7 @@ const spnsrs = () => {
           <h1 className='common-title'>Sponsors</h1>
           <div className="sponsor-boxes">
             <div className="box">
-              <h2 className='spnsr-title'>Platinum Sponsors</h2>
+              <h2 className='spnsr-title-1'>Platinum Sponsors</h2>
               <div className='spnsr-grid'>
                 <div className="spnsr-img">
                   <img src="../Devfolio.png" alt="" />
@@ -19,7 +19,7 @@ const spnsrs = () => {
               </div>
             </div>
             <div className="box">
-              <h2 className='spnsr-title'>Gold Sponsors</h2>
+              <h2 className='spnsr-title-2'>Gold Sponsors</h2>
               <div className='spnsr-grid'>
                 <div className="spnsr-img">
                   <img src="../Filecoin.png" alt="" />
