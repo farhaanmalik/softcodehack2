@@ -4,7 +4,7 @@ Welcome to the GitHub repository for the Soft CodeHack 2.0 website. This reposit
 
 ## Live Demo
 
-You can check out the live website at [https://softcodehack-phicsit.vercel.app/](https://softcodehack-phicsit.vercel.app/).
+You can check out the live website at [https://softcodehack2.phicsit.in/](https://softcodehack2.phicsit.in/).
 
 ## Features
 
