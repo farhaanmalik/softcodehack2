@@ -628,13 +628,13 @@ nav ul li a:hover::after {
     text-align: center;
     padding: 15px 20px;
     margin: 20px;
-    background-color: #ffffffcc;
-    border-radius: 5px;
+    background-color: rgba(255, 255, 255);
+    /* border-radius: 5px; */
     overflow: hidden;
     position: relative;
 }
 
-.spnsr-img::after {
+/*.spnsr-img::after {
     content: "";
     position: absolute;
     top: 0;
@@ -650,7 +650,7 @@ nav ul li a:hover::after {
 
 .spnsr-img:hover::after {
     transform: translateX(100%);
-}
+} */
 
 .spnsr-img img {
     width: 150px;
