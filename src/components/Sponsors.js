@@ -11,10 +11,14 @@ const spnsrs = () => {
               <h2 className='spnsr-title-1'>Platinum Sponsors</h2>
               <div className='spnsr-grid'>
                 <div className="spnsr-img">
-                  <img src="../Devfolio.png" alt="" />
+                  <a href='https://devfolio.co/'>
+                    <img src="../Devfolio.png" alt="DEVFOLIO LOGO" />
+                  </a>
                 </div>
                 <div className="spnsr-img">
-                  <img src="../Polygon.png" alt="" />
+                  <a href="https://polygon.technology/">
+                    <img src="../Polygon.png" alt="POLYGON LOGO" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -22,13 +26,19 @@ const spnsrs = () => {
               <h2 className='spnsr-title-2'>Gold Sponsors</h2>
               <div className='spnsr-grid'>
                 <div className="spnsr-img">
-                  <img src="../Filecoin.png" alt="" />
+                  <a href='https://filecoin.io/'>
+                    <img src="../Filecoin.png" alt="FILECOIN LOGO" />
+                  </a>
                 </div>
                 <div className="spnsr-img">
-                  <img src="../Replit.png" alt="" />
+                  <a href='https://replit.com/'>
+                    <img src="../Replit.png" alt="REPLIT LOGO" />
+                  </a>
                 </div>
                 <div className="spnsr-img">
-                  <img src="../Solana.png" alt="" />
+                  <a href='https://solana.com/'>
+                    <img src="../Solana.png" alt="SOLANA LOGO" />
+                  </a>
                 </div>
               </div>
             </div>

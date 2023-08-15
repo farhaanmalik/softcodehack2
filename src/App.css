@@ -223,7 +223,7 @@ nav ul li a:hover::after {
 }
 
 .hero-btn .btn-link {
-    width: 220px;
+    width: 230px;
     background-color: #018cff;
     color: #fff;
     margin: 10px;
@@ -232,6 +232,17 @@ nav ul li a:hover::after {
     font-size: 18px;
     font-weight: 400;
     transition: all .3s;
+}
+
+.hero-btn .btn-img {
+    width: 260px;
+    margin: -6px;
+    transition: all .3s;
+    border-radius: 3px;
+}
+
+.hero-btn .btn-img:hover {
+    transform: translateY(2px);
 }
 
 .hero-btn .btn-link:hover {
@@ -415,7 +426,7 @@ nav ul li a:hover::after {
     position: relative;
 }
 
-.team-img{
+.team-img {
     background-color: #018cff;
     width: 220px;
     height: 220px;

@@ -107,9 +107,9 @@ const Hero = () => {
             Collaborate, Innovate, and Conquer at the Hackathon!
           </p>
           <div className="hero-btn">
-            <a href="/" className="btn-link" rel="noreferrer">
-              Apply With DevFolio
-            </a>
+            <button>
+              <img src="./apply-devfolio.png" className="btn-img" alt="APPLY WITH DEVFOLIO"/>
+            </button>
             <a href="/" className="btn-link">
               Sponsor Us
             </a>
