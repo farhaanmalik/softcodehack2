@@ -3,6 +3,7 @@ import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 import circle from "./images/circle.png";
 import tag from "./images/tag.png";
+import DevfolioApplyButton from "./Devfoliobtn"
 
 const particleOptions = {
   fpsLimit: 60,
@@ -107,9 +108,7 @@ const Hero = () => {
             Collaborate, Innovate, and Conquer at the Hackathon!
           </p>
           <div className="hero-btn">
-            <a href="/" className="btn-link" rel="noreferrer">
-              Apply With DevFolio
-            </a>
+            <DevfolioApplyButton />
             <a href="/" className="btn-link">
               Sponsor Us
             </a>
