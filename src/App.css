@@ -234,14 +234,7 @@ nav ul li a:hover::after {
     transition: all .3s;
 }
 
-.hero-btn .btn-img {
-    width: 260px;
-    margin: -6px;
-    transition: all .3s;
-    border-radius: 3px;
-}
-
-.hero-btn .btn-img:hover {
+.apply-button:hover {
     transform: translateY(2px);
 }
 
