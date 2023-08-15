@@ -12,12 +12,12 @@ const spnsrs = () => {
               <div className='spnsr-grid'>
                 <div className="spnsr-img">
                   <a href='https://devfolio.co/'>
-                    <img src="../Devfolio.png" alt="DEVFOLIO LOGO" />
+                    <img src="../Devfolio_Logo-Colored.png" alt="DEVFOLIO LOGO" />
                   </a>
                 </div>
                 <div className="spnsr-img">
                   <a href="https://polygon.technology/">
-                    <img src="../Polygon.png" alt="POLYGON LOGO" />
+                    <img src="../Polygon_Logo-Colored.png" alt="POLYGON LOGO" />
                   </a>
                 </div>
               </div>
@@ -27,17 +27,17 @@ const spnsrs = () => {
               <div className='spnsr-grid'>
                 <div className="spnsr-img">
                   <a href='https://filecoin.io/'>
-                    <img src="../Filecoin.png" alt="FILECOIN LOGO" />
+                    <img src="../Filecoin Coloured White Text.png" alt="FILECOIN LOGO" />
                   </a>
                 </div>
                 <div className="spnsr-img">
                   <a href='https://replit.com/'>
-                    <img src="../Replit.png" alt="REPLIT LOGO" />
+                    <img src="../Replit-light-background.png" alt="REPLIT LOGO" />
                   </a>
                 </div>
                 <div className="spnsr-img">
                   <a href='https://solana.com/'>
-                    <img src="../Solana.png" alt="SOLANA LOGO" />
+                    <img src="../Solana-Colored.png" alt="SOLANA LOGO" />
                   </a>
                 </div>
               </div>
