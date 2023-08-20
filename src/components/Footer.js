@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <div className="footer-content">
         <div className="logo ft-box">
-          <img src="../footer-logo.png" alt="Logo" />
+          <img src="../footer-logo-black.png" alt="Logo" />
           <p className="pow-by">
             Powered by PHICSIT.
           </p>

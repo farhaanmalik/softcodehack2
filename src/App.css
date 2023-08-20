@@ -764,6 +764,8 @@ footer {
 
 .logo img {
     width: 100px;
+    position: relative;
+    left: 50px;
 }
 
 .pow-by {

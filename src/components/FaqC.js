@@ -18,7 +18,7 @@ const data = {
     },
     {
       title: "Is it online or offline?",
-      content: `The Hackathon is online (14th - 16th July 2023).`,
+      content: `The Hackathon is online (6th - 8th October 2023).`,
     },
     {
       title: "How will the event be judged?",
