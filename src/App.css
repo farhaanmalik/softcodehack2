@@ -33,7 +33,7 @@ a {
 }
 
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 10px;
     background: #0b1936;
 }
 
@@ -91,7 +91,7 @@ header {
 }
 
 .navbar {
-    max-width: 1350px;
+    max-width: 1240px;
     padding: 0px 25px;
     width: 100%;
     margin: auto;
@@ -119,7 +119,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 16px;
+    font-size: 17.5px;
     letter-spacing: 1px;
     transition: all .3s;
     position: relative;
@@ -628,13 +628,13 @@ nav ul li a:hover::after {
     text-align: center;
     padding: 15px 20px;
     margin: 20px;
-    background-color: rgba(255, 255, 255);
-    /* border-radius: 5px; */
+    background-color: #ffffff;
+    border-radius: 5px;
     overflow: hidden;
     position: relative;
 }
 
-/*.spnsr-img::after {
+/* .spnsr-img::after {
     content: "";
     position: absolute;
     top: 0;
@@ -761,11 +761,14 @@ footer {
     width: fit-content;
     margin: 10px 20px;
 }
-
-.logo img {
+.ft-logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ft-logo img {
     width: 100px;
-    position: relative;
-    left: 50px;
+    margin-bottom: 15px;
 }
 
 .pow-by {
@@ -791,7 +794,7 @@ footer {
 }
 
 .social-icon:hover {
-    color: #2f74b4;
+    color: #018cff;
     transform: translateY(-2px);
 }
 
@@ -801,7 +804,7 @@ footer {
 }
 
 .contact-us-email a:hover {
-    color: #2f74b4;
+    color: #018cff;
 }
 
 .copyright {
@@ -823,10 +826,12 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-
+    nav ul li a{
+        font-size: 16px;
+    }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 980px) {
     header {
         margin-top: 0px;
         padding: 0px;
