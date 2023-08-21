@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
-        <div className="logo ft-box">
-          <img src="../footer-logo-black.png" alt="Logo" />
+        <div className="ft-logo ft-box">
+          <img src="../ft-logo.png" alt="Logo" />
           <p className="pow-by">
-            Powered by PHICSIT.
+            Powered by PHICSIT
           </p>
         </div>
         <div className="social ft-box">
