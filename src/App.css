@@ -323,9 +323,9 @@ nav ul li a:hover::after {
 }
 
 .theme-card {
-    width: 320px;
-    height: 380px;
-    overflow-x: hidden;
+    width: 350px;
+    height: 475px;
+    overflow: hidden;
     margin: 20px;
     color: #fff;
     border-radius: 10px;
@@ -343,8 +343,8 @@ nav ul li a:hover::after {
 }
 
 .theme-img img {
-    width: 320px;
-    height: 180px;
+    width: 350px;
+    height: 200px;
     margin: auto;
     border-radius: 10px 10px 0px 0px;
 }
@@ -355,6 +355,10 @@ nav ul li a:hover::after {
 
 .theme-content p {
     padding-top: 8px;
+}
+
+.read-more-btn{
+    color: #018cff;
 }
 
 /* ====Prizes CSS==== */
@@ -404,13 +408,14 @@ nav ul li a:hover::after {
 /*==== Mentors CSS ====*/
 
 .team-section {
-    margin: 4rem 0;
+    margin: 4rem auto;
+    max-width: 1100px;
 }
 
 .team {
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -420,19 +425,19 @@ nav ul li a:hover::after {
 }
 
 .team-img {
-    background-color: #018cff;
     width: 220px;
     height: 220px;
-    border-radius: 120px;
     box-shadow: 0px 10px 20px #0b1936;
+    border-radius: 50%;
+    background-color: #018cff;
 }
 
 .team-img img {
-    width: 220px;
+    width: 100%;
     height: 220px;
-    border-radius: 120px;
-    padding: 6px;
-    border: 3px solid #018cff;
+    border-radius: 50%;
+    padding: 5px;
+    border:2px solid #018cff;
 }
 
 .team-content {
@@ -591,24 +596,20 @@ nav ul li a:hover::after {
     margin-top: 20px;
 }
 
-
-.spnsr-title-1 {
+.spnsr-title{
     text-align: center;
     position: relative;
     width: 250px;
     margin: auto;
-    /* background: linear-gradient(180deg, #d7dbde 0%, #68e0cf 100%); */
-    color: #E5E4E2;
-
 }
-
+.spnsr-title-1 {
+    color: #E5E4E2;
+}
 .spnsr-title-2 {
-    text-align: center;
-    position: relative;
-    width: 250px;
-    margin: auto;
-    /* background: linear-gradient(180deg, #d7dbde 0%, #68e0cf 100%); */
     color: gold;
+}
+.spnsr-title-3{
+    color: #ff7272;
 }
 
 .spnsr-grid {
@@ -663,31 +664,31 @@ nav ul li a:hover::after {
 }
 
 .ptnr-boxes {
-    max-width: 900px;
+    max-width: 1050px;
     margin: 20px auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    display:flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
 .ptnr-box {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     background-color: #0053b9;
     border-radius: 15px;
-    margin: 25px;
+    margin: 20px;
     position: relative;
     overflow: hidden;
     box-shadow: 0px 10px 20px #010a12;
 }
 
 .ptnr-box img {
-    width: 200px;
-    height: 200px;
-    padding: 5px;
-    border-radius: 18px;
+    width: 210px;
+    height: 210px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 5px;
 }
 
 .ptnr-box p {
@@ -707,7 +708,7 @@ nav ul li a:hover::after {
 }
 
 .ptnr-box:hover p {
-    bottom: 0%;
+    bottom: -5px;
 }
 
 
@@ -819,6 +820,34 @@ footer {
     letter-spacing: 1.5px;
 }
 
+
+.theme-details-page{
+   max-width: 900px;
+   margin: auto;
+   margin-top: 8%;
+   padding: 20px;
+}
+.details-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.details-top h1{
+    color: #00CCFF;
+}
+.theme-details-page p{
+    margin-bottom: 20px;
+    line-height: 26px;
+    font-size: 17px;
+}
+.go-back-btn{
+    color: #00CCFF;
+    background-color: #092155;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 5px 5px #010a12;
+}
 
 /* === Media Queries CSS === */
 @media screen and (max-width: 1080px) {

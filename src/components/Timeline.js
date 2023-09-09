@@ -12,7 +12,7 @@ const Timeline = () => {
                     <div className="main-timeline">
                         <div className="timeline">
                             <div className="timeline-content">
-                                <div className="timeline-year"></div>
+                                <div class="timeline-year" style={{ right: "-35px" }}>16 Aug 2023</div>
                                 <h3 className="title">Registration starts</h3>
                                 <p className="description">
                                     You can register by clicking on Apply with Devfolio button above.
@@ -41,7 +41,7 @@ const Timeline = () => {
                         </div>
                         <div class="timeline">
                             <div class="timeline-content">
-                                <div class="timeline-year">4th Oct 2023</div>
+                                <div class="timeline-year">4 Oct 2023</div>
                                 <h3 class="title">Registration end</h3>
                                 <p class="description">
                                     Last date of event registration
@@ -50,7 +50,7 @@ const Timeline = () => {
                         </div>
                         <div class="timeline">
                             <div class="timeline-content">
-                                <div class="timeline-year">6th Oct 2023</div>
+                                <div class="timeline-year">6 Oct 2023</div>
                                 <h3 class="title">Hackathon starts</h3>
                                 <p class="description">
                                     You can start building your project
@@ -88,8 +88,8 @@ const Timeline = () => {
                         </div>
                         <div class="timeline">
                             <div class="timeline-content">
-                                <div class="timeline-year"  style={{ right: "-25px" }}>
-                                8th Oct 2023</div>
+                                <div class="timeline-year" style={{ right: "-25px" }}>
+                                    8 Oct 2023</div>
                                 <h3 class="title">Hackathon ends</h3>
                                 <p class="description">
                                     Last day of Hackathon

@@ -8,8 +8,8 @@ const About = () => {
                     <h2 className="common-title">About Us</h2>
                     <div className="content">
                         <p>
-                            Soft CodeHack 2.0 is an exciting and inspiring event, brought to you
-                            by the PHICSIT community. Our goal is to bring together individuals
+                            <b style={{color:"#018cff"}}>Soft CodeHack 2.0</b> is an exciting and inspiring event, brought to you
+                            by the <b style={{color:"#018cff"}}>PHICSIT</b> community. Our goal is to bring together individuals
                             with a passion for technology, engineering, and sustainability, to
                             collaborate and create innovative solutions that have the potential to
                             make a real difference in the world.
@@ -20,8 +20,7 @@ const About = () => {
                             unlocking creativity and innovation, which is why we're committed to
                             providing a welcoming and supportive environment for all participants.
                             Whether you're an experienced developer or just starting out, whether
-                            you come from a technical background or not, you'll find a place at
-                            Soft CodeHack 2.0.
+                            you come from a technical background or not, you'll find a place at Soft CodeHack 2.0.
                         </p>
                         <br />
                         <p>
@@ -35,8 +34,7 @@ const About = () => {
                         <p>
                             If you're passionate about technology, engineering, and
                             sustainability, and you want to be part of a collaborative and
-                            inclusive community working towards a better world, then Soft CodeHack
-                            2.0 is the event for you. Join us and let's hack our way to a brighter
+                            inclusive community working towards a better world, then Soft CodeHack 2.0 is the event for you. Join us and let's hack our way to a brighter
                             future together!
                         </p>
                     </div>

@@ -8,7 +8,7 @@ const spnsrs = () => {
           <h1 className='common-title'>Sponsors</h1>
           <div className="sponsor-boxes">
             <div className="box">
-              <h2 className='spnsr-title-1'>Platinum Sponsors</h2>
+              <h2 className='spnsr-title-1 spnsr-title'>Platinum Sponsors</h2>
               <div className='spnsr-grid'>
                 <div className="spnsr-img">
                   <a href='https://devfolio.co/'>
@@ -23,7 +23,7 @@ const spnsrs = () => {
               </div>
             </div>
             <div className="box">
-              <h2 className='spnsr-title-2'>Gold Sponsors</h2>
+              <h2 className='spnsr-title-2 spnsr-title'>Gold Sponsors</h2>
               <div className='spnsr-grid'>
                 <div className="spnsr-img">
                   <a href='https://filecoin.io/'>
@@ -49,11 +49,22 @@ const spnsrs = () => {
                   <img src="../Verbwire.png" alt="" />
                 </div>
               </div>
-            </div>
-             <div className="box">
-              <h2 className='spnsr-title'>In-Kind Sponsors</h2>
-              <div className="spnsr-img"></div>
             </div> */}
+            <div className="box">
+              <h2 className='spnsr-title-3 spnsr-title'>In-Kind Sponsors</h2>
+              <div className='spnsr-grid'>
+                <div className="spnsr-img">
+                  <a href='https://www.wolfram.com/'>
+                    <img src="../wolfram-med.png" alt="Wolffram"/>
+                  </a>
+                </div>
+                <div className="spnsr-img">
+                  <a href='https://balsamiq.com/'>
+                    <img src="../balsamiq.png" alt="Balsamiq"/>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

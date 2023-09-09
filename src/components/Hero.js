@@ -83,7 +83,7 @@ const particleOptions = {
 
 const Hero = () => {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
+    // console.log(engine);
     await loadSlim(engine);
   }, []);
 
@@ -109,7 +109,7 @@ const Hero = () => {
           </p>
           <div className="hero-btn">
             <DevfolioApplyButton />
-            <a href="/" className="btn-link">
+            <a href="mailto:phicsit.community@gmail.com" className="btn-link">
               Sponsor Us
             </a>
             <a

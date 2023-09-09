@@ -1,7 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const ThemeCard = (props) => {
-  const { image, title, description } = props;
+  const { image, title, description, readMore, readMoreUrl } = props;
   return (
     <>
       <div className="theme-card">
@@ -10,7 +11,10 @@ const ThemeCard = (props) => {
         </div>
         <div className="theme-content">
           <h2>{title}</h2>
-          <p>{description}</p>
+          <p>
+            <span>{description}</span>
+            <Link to={readMoreUrl} className='read-more-btn'>{readMore}</Link>
+          </p>
         </div>
       </div>
     </>

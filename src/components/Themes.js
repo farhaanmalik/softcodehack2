@@ -5,51 +5,47 @@ const Themes = () => {
   const cards = [
     {
       id: 1,
-      image: "../theme-1.jpg",
-      title: "Automation and AI in Homes",
-      description: "Develop innovative solutions that incorporate automation and artificial intelligence to make our daily home life more efficient, convenient, and enjoyable."
+      image: "../theme-1.png",
+      title: "Build Community App/Website",
+      description: "Develop a platform that promotes social interaction, facilitates communication and builds a vibrant community. Key features must be user profiles, discussion forums, private messaging, events and meetups, gamification features, user moderation and safety and integration with social media.",
+      details: ""
     },
     {
       id: 2,
-      image: "../theme-2.jpeg",
-      title: "Agri-Tech",
-      description: "Use technology to help farmers increase their productivity and efficiency. This could include automated crop monitoring, precision agriculture technologies, or AI-driven pest control systems."
+      image: "../theme-2.jpg",
+      title: "AI Apps for Developer Experience",
+      description: "Enable more efficient and seamless developer workflows by automating repetitive work and forecasting next actions.",
+      details: " Read More...",
+      detailUrl: "/themes/ai-apps-for-developer-experience"
     },
     {
       id: 3,
       image: "../theme-3.jpg",
-      title: "Academic Life Tools",
-      description: "Focus on developing tools and software to help students and educators navigate academic life more effectively. This could include study aids, educational apps, or tools to help manage coursework and schedules."
+      title: "Career Opportunities App/Website",
+      description: "Develop user-friendly and efficient app/website that simplifies the job search process and provides a comprehensive platform to explore a variety of career opportunities. Key features must be personalized job recommendations, advanced search filters, application tracker, company insights and reviews and career guidance resources.",
+      details: ""
     },
     {
       id: 4,
-      image: "../theme-4.png",
-      title: "Health, Fitness & Sports",
-      description: "Develop services to promote healthy living, fitness, and sports performance. This could include wearable fitness trackers, AI-driven personal trainers, or nutrition tracking apps."
+      image: "../theme-4.jpeg",
+      title: "Blockchain & Cybersecurity",
+      description: "Explore the intersection of blockchain technology and cybersecurity, with the aim of creating solutions that address security challenges related to data privacy & authentication.",
+      details: ""
     },
     {
       id: 5,
-      image: "../theme-5.jpeg",
-      title: "Blockchain & Cybersecurity",
-      description: "Explore the intersection of blockchain technology and cybersecurity, with the aim of creating solutions that address security challenges related to data privacy & authentication."
+      image: "../theme-5.jpg",
+      title: "AI Apps for Data-Driven Insights",
+      description: "Utilize data to make predictive recommendations that unearth useful and unexpected insights.",
+      details: " Read More...",
+      detailUrl: "/themes/ai-apps-for-data-driven-insights"
     },
     {
       id: 6,
-      image: "../theme-6.jpeg",
-      title: "Artistic Visualization",
-      description: "Explore the possibilities of using technology to create stunning visual experiences that showcase creativity, imagination, and artistic expression."
-    },
-    {
-      id: 7,
-      image: "../theme-7.jpeg",
-      title: "Smart Automation",
-      description: "Create innovative solutions that automate tasks, optimize systems and processes, and increase productivity across a variety of industries."
-    },
-    {
-      id: 8,
-      image: "../theme-8.png",
+      image: "../theme-6.png",
       title: "Open Innovation",
-      description: "Collaborate with others to develop innovative solutions that promote openness, transparency, and inclusivity in society. It involves sharing knowledge & resources to create a community-driven approach to innovation."
+      description: "Collaborate with others to develop innovative solutions that promote openness, transparency, and inclusivity in society. It involves sharing knowledge & resources to create a community-driven approach to innovation.",
+      details: ""
     }
   ]
   return (
@@ -64,6 +60,8 @@ const Themes = () => {
                   image={item.image}
                   title={item.title}
                   description={item.description}
+                  readMoreUrl={item.detailUrl}
+                  readMore={item.details !== null ?  item.details : ""}
                 />
               </div>
             })}

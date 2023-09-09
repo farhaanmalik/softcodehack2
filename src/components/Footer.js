@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="contact-us ft-box">
           <h2 className="footer-title">Contact Us</h2>
-          <p className="contact-us-email"><a href="mailto:support@softcodehack.in" target="_blank" rel="noreferrer">support@softcodehack.in</a></p>
+          <p className="contact-us-email"><a href="mailto:phicsit.community@gmail.com" target="_blank" rel="noreferrer">phicsit.community@gmail.com</a></p>
         </div>
       </div>
       <div className="footer-end">

@@ -5,12 +5,12 @@ const data = {
   rows: [
     {
       title: "What is a hackathon?",
-      content: `A hackathon, also known as a codefest, is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program..`,
+      content: `A hackathon, also known as a codefest, is a social coding event that brings computer programmers and other interested people together to improve upon or build a new software program.`,
     },
     {
       title: "What is in for me?",
       content:
-        "Learning new skills, look good on your resume, networking, winning swags & cash prizes, working as a team, meet great people and having fun!.",
+        "Learning new skills, look good on your resume, networking, winning swags & cash prizes, working as a team, meet great people and having fun.",
     },
     {
       title: "Is there any registration fee?",
@@ -18,7 +18,7 @@ const data = {
     },
     {
       title: "Is it online or offline?",
-      content: `The Hackathon is online (6th - 8th October 2023).`,
+      content: `The Hackathon is online (6 - 8 October 2023).`,
     },
     {
       title: "How will the event be judged?",

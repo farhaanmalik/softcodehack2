@@ -24,7 +24,7 @@ You can check out the live website at [https://softcodehack2.phicsit.in/](https:
 - HTML5
 - CSS3 (including Flexbox and Media Queries)
 - JavaScript (for smooth scroll functionality)
-- Hostinger (for deployment)
+- Vercel (for deployment)
 
 ## Getting Started
 

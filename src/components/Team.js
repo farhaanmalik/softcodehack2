@@ -11,10 +11,10 @@ const Team = () => {
     },
     {
       id: 2,
-      image: "../team.jpg",
-      name: "Name 2",
-      role: "Designation",
-      companyName:"Company Name"
+      image: "../mentor-2.png",
+      name: "Taranjot Singh",
+      role: "Mentor and Judge",
+      companyName:"Placewit"
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ const Team = () => {
                   <div className="team-content">
                     <h3>{item.name}</h3>
                     <p>{item.role}</p>
-                    <p>{item.companyName}</p>
+                    <p><b>{item.companyName}</b></p>
                   </div>
                 </div>
               )
