@@ -357,18 +357,18 @@ nav ul li a:hover::after {
     padding-top: 8px;
 }
 
-.read-more-btn{
+.read-more-btn {
     color: #018cff;
 }
 
 /* ====Prizes CSS==== */
 .prize-section {
-    margin: 4rem 0;
+    margin: 4rem auto;
+    text-align: left;
 }
 
 .prize-boxes {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
@@ -404,6 +404,28 @@ nav ul li a:hover::after {
     font-weight: 400;
 }
 
+.check-more {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.checkprize-btn {
+    color: #fff;
+    font-weight: 500;
+    background-color: #018cff;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all .4s;
+}
+
+.checkprize-btn .icon {
+    margin-left: 5px;
+    transform: translateY(4px);
+}
+
+.checkprize-btn:hover {
+    opacity: .8;
+}
 
 /*==== Mentors CSS ====*/
 
@@ -437,7 +459,7 @@ nav ul li a:hover::after {
     height: 220px;
     border-radius: 50%;
     padding: 5px;
-    border:2px solid #018cff;
+    border: 2px solid #018cff;
 }
 
 .team-content {
@@ -596,19 +618,22 @@ nav ul li a:hover::after {
     margin-top: 20px;
 }
 
-.spnsr-title{
+.spnsr-title {
     text-align: center;
     position: relative;
     width: 250px;
     margin: auto;
 }
+
 .spnsr-title-1 {
     color: #E5E4E2;
 }
+
 .spnsr-title-2 {
     color: gold;
 }
-.spnsr-title-3{
+
+.spnsr-title-3 {
     color: #ff7272;
 }
 
@@ -666,7 +691,7 @@ nav ul li a:hover::after {
 .ptnr-boxes {
     max-width: 1050px;
     margin: 20px auto;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -762,11 +787,13 @@ footer {
     width: fit-content;
     margin: 10px 20px;
 }
-.ft-logo{
+
+.ft-logo {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
 .ft-logo img {
     width: 100px;
     margin-bottom: 15px;
@@ -821,32 +848,119 @@ footer {
 }
 
 
-.theme-details-page{
-   max-width: 900px;
-   margin: auto;
-   margin-top: 8%;
-   padding: 20px;
+.theme-details-page {
+    max-width: 900px;
+    background-color: #0b1936;
+    margin: 3% auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 30px #050d1d;
 }
-.details-top{
+
+.details-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0px;
 }
-.details-top h1{
+
+.details-top h1 {
     color: #00CCFF;
 }
-.theme-details-page p{
+
+.theme-details-page p {
     margin-bottom: 20px;
     line-height: 26px;
     font-size: 17px;
 }
-.go-back-btn{
-    color: #00CCFF;
-    background-color: #092155;
+
+.go-back-btn {
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, -25px);
+    color: #fff;
+    background-color: #0053b9;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0px 5px 5px #010a12;
+    font-weight: 500;
+    width: 200px;
+    text-align: center;
+    transition: all .2s;
+    z-index: 999;
+}
+.go-back-btn:hover{
+    background-color: #018cff;
+}
+
+
+/* === Prize page CSS === */
+.prize-page {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.prize-page-cards {
+    max-width: 375px;
+    min-width: 320px;
+    width: 100%;
+    background-color: #0b1936;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px #010a12;
+}
+
+.prize-page-cards img {
+    width: 160px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.prize-page-cards ul {
+    text-align: left;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.prize-page-cards ul li {
+    list-style-type: disc;
+    color: #ffffff;
+    letter-spacing: .5px;
+    line-height: 24px;
+    margin-top: 4px;
+}
+.prize-1, .prize-2{
+    padding: 20px 0;
+}
+.theme-prize {
+    padding: 20px 0px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.theme-prize-card {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0b1936;
+    max-width: 500px;
+    min-width: 300px;
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px #010a12;
+}
+.theme-prize-card p {
+    font-size: 18px;
+    padding-top: 10px;
 }
 
 /* === Media Queries CSS === */
@@ -855,7 +969,8 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    nav ul li a{
+
+    nav ul li a {
         font-size: 16px;
     }
 }
@@ -1029,5 +1144,14 @@ footer {
         grid-template-columns: repeat(1, 1fr);
         gap: 2px;
         width: 20px;
+    }
+
+    .prize-page {
+        margin-top: 0px;
+    }
+
+    .theme-prize-card{
+        flex-direction: column;
+        height: 250px;
     }
 }

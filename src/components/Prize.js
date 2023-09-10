@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { FaArrowRight } from "react-icons/fa6";
 
 const Prize = () => {
     return (
@@ -19,6 +21,12 @@ const Prize = () => {
                             <img src="../pr-3.svg" alt="" />
                             <p>Internship & full-time role opportunity</p>
                         </div>
+                    </div>
+                    <div className='check-more'>
+                        <Link to="/prizes" className='checkprize-btn'>
+                            Check Prize Details
+                            <FaArrowRight className='icon'/>
+                        </Link>
                     </div>
                 </div>
             </section>
